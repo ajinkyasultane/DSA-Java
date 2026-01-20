@@ -1,0 +1,32 @@
+package Conditional_Assignment;
+import java.util.Scanner;
+
+public class Largest_Number {
+    public static void main(String args[])
+    {
+        int ans = 0 ;
+
+        while (true)
+        {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Enter a Number");
+            int num = sc.nextInt();
+
+            if (num > 0)
+            {
+                if (num > ans)
+                {
+                    ans =num;
+                }
+
+            }
+            else if (num == 0)
+            {
+                System.out.println("Program is Stop");
+                break;
+            }
+
+        }
+        System.out.println("The Largest Number is "+ ans);
+    }
+}
