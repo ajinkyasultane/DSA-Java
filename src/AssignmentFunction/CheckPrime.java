@@ -11,6 +11,16 @@ public class CheckPrime {
 
         boolean ans = isprime(no);
         System.out.println(ans);
+        int count = 0;
+        for (int i = 1; i <= 100; i++)
+        {
+            if (isprime(i)) {
+                System.out.print(i + " ");
+
+            }
+
+
+        }
 
     }
     static boolean isprime(int no)
