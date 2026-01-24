@@ -18,8 +18,6 @@ public class CheckPrime {
                 System.out.print(i + " ");
 
             }
-
-
         }
 
     }
