@@ -1,0 +1,28 @@
+package Arrays;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class MultiDimensionalArrayList {
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        ArrayList<ArrayList<Integer>> rollno = new ArrayList<>(3);
+
+        for (int i = 0; i< 3;i++)
+        {
+            rollno.add(new ArrayList<>());
+        }
+
+        for (int i = 0 ; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                rollno.get(i).add(sc.nextInt());
+            }
+
+        }
+        System.out.println(rollno);
+        sc.close();
+    }
+}
