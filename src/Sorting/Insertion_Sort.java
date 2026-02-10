@@ -8,6 +8,8 @@ public class Insertion_Sort {
         int[] arr= {4,5,1,2,3};
         insertion(arr);
         System.out.println(Arrays.toString(arr ));
+
+
     }
     static void insertion(int[] arr)
     {
