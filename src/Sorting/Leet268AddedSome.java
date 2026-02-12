@@ -1,9 +1,11 @@
 package Sorting;
 
+import java.util.Arrays;
+
 public class Leet268AddedSome {
     public static void main (String[] args)
     {
-        int[] arr = {10,11,12,13,14,17,16};
+        int[] arr = {10,11,12,13,14,16,17};
         System.out.println(missingnumber(arr));
 
     }
@@ -11,7 +13,6 @@ public class Leet268AddedSome {
     {
         int start = 10;
         int i = 0;
-
         while (i < arr.length)
         {
             int correct = arr[i] - start;
