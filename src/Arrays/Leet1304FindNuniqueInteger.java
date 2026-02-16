@@ -6,7 +6,7 @@ public class Leet1304FindNuniqueInteger {
     public static void main(String[] args)
     {
         int n = 5;
-        System.out.println(Arrays.toString(unique(n)));
+        System.out.println(Arrays.toString(unique(n))) ;
     }
 
     static int[] unique(int n) {
